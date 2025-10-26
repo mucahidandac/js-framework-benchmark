@@ -1,0 +1,23 @@
+{
+  "name": "js-framework-benchmark-vue-v2-7-options",
+  "private": true,
+  "version": "0.0.0",
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "vue",
+    "frameworkHomeURL": "https://vue.js.org/",
+    "customURL": "/dist"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build-prod": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^2.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "*",
+    "vite": "^7.0.5"
+  }
+}
